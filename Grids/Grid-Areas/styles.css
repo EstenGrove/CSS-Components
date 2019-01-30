@@ -1,0 +1,123 @@
+/******************************************
+*  Author : Esten Grove   
+*  Created On : Thu Dec 27 2018
+*  File : styles.css
+*******************************************/
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    max-width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat(4, 25%);
+    grid-template-areas:
+        "header header"
+        "content-SMALL aside"
+        "content-LG aside"
+        "footer footer"
+    ;
+    justify-content: center;
+}
+
+.item {
+    padding: 1rem;
+    background: #eaecef;
+    border-radius: .3rem;
+}
+
+.header {
+    grid-area: header;
+    background: #333;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.content-SMALL {
+    grid-area: content-SMALL;
+}
+
+.content-LG {
+    grid-area: content-LG;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navLink {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+    color: #eee;
+    position: relative;
+}
+
+.navLink::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    transition: all .3s ease-in;
+}
+
+.navLink:hover::after {
+    width: 100%;
+    background: #8a5cea;
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        grid-template-rows: repeat(5, 20%);
+        grid-template-areas:
+            "header header"
+            "content-SMALL content-SMALL"
+            "aside aside"
+            "content-LG content-LG"
+            "footer footer"
+    }
+
+    .nav {
+        align-items: center;
+    }
+}
