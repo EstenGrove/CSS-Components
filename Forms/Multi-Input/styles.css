@@ -21,7 +21,7 @@ html {
     max-width: 55rem;
     height: 50rem;
     padding: 3rem 5rem;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
     box-shadow: 2px 4px 13px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -58,8 +58,8 @@ html {
     height: 3.5rem;
     border-radius: 0.3rem;
     outline: none;
-    border: 1px solid #aaa;
-    border-bottom: 2px solid #5cbcea;
+    border: none;
+    border-bottom: 3px solid #5cbcea;
     padding: 0.5rem;
     font-size: 1.7rem;
 }
@@ -73,7 +73,7 @@ html {
 #firstName:focus,
 #lastName:focus,
 #email:focus {
-    border-bottom: 2px solid #e84855;
+    border-bottom: 3px solid #e84855;
 }
 
 .signupBtn {
