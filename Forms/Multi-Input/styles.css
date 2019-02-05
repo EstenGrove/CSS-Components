@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main-wrapper {
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.main-title {
+    font-family: "Abril Fatface";
+    font-size: 3rem;
+    text-align: center;
+}
+
+.wrapper {
+    background: #fff;
+    margin: 5rem auto;
+    max-width: 55rem;
+    height: 50rem;
+    padding: 3rem 5rem;
+    border-radius: 0.3rem;
+    box-shadow: 2px 4px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formTitle {
+    font-size: 3rem;
+    font-family: "Raleway";
+    letter-spacing: .2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.emailLabel,
+.nameLabel {
+    width: 100%;
+    font-size: 1.7rem;
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #eee;
+}
+
+#firstName,
+#lastName,
+#email {
+    width: 100%;
+    height: 3.5rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: 1px solid #aaa;
+    border-bottom: 2px solid #5cbcea;
+    padding: 0.5rem;
+    font-size: 1.7rem;
+}
+
+#email,
+#firstName,
+#lastName {
+    margin-bottom: 2rem;
+}
+
+#firstName:focus,
+#lastName:focus,
+#email:focus {
+    border-bottom: 2px solid #e84855;
+}
+
+.signupBtn {
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    background: #5cbcea;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.signupBtn:hover {
+    cursor: pointer;
+}
+
+.switch {
+    color: #f4f4f4;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.switchForm {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #5c75ea;
+}
+
+.dark {
+    background-image: linear-gradient(to left top, #403f4c, #343546, #262b41, #17223b, #011936);
+
+}
+
+@media screen and (max-width: 470px) {
+    .wrapper {
+        height: 45rem;
+        padding: 2rem 1.5rem;
+    }
+}
