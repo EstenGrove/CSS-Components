@@ -15,12 +15,6 @@ html {
     height: 100vh;
 }
 
-.main-title {
-    font-family: "Abril Fatface";
-    font-size: 3rem;
-    text-align: center;
-}
-
 .wrapper {
     background: #fff;
     margin: 5rem auto;
