@@ -20,7 +20,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #333;
+    background: #222;
 }
 
 html {
@@ -43,6 +43,8 @@ html {
     border-right: 3px solid #5cbcea;
     animation: typing 3.5s steps(30, end), blinking .5s step-end infinite;
 }
+
+
 
 @keyframes typing {
     from {
