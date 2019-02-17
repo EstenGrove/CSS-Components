@@ -8,12 +8,30 @@
 const TypewriterText = document.querySelector('.typewriter-repeating');
 
 const textArr = [
-    "Hi. I\'m Esten", "I love Design.", "I love to Develop.", "And I love solving problems.", "I\'m a front-end developer."
+    "I love Design.", "I love to Develop.", "And I love solving problems.", "I\'m a front-end developer."
 ];
-// Check for ending animation
-TypewriterText.addEventListener('animationend', e => {
-    for (let i = 0; i < textArr.length; i++) {
-        TypewriterText.textContent = `${textArr[i]}`;
-        TypewriterText.classList.add('repeatTyping');
+
+
+const runAnimation = () => {
+    return TypewriterText.classList.add('repeatTyping');
+}
+
+//Use ES6 Class to create new instance of the Typewriter animation
+class Typewriter {
+    constructor(count, text) {
+        this.count = count;
+        this.text = text;
+        this.run = function (count, text) {
+            return requestAnimationFrame(runAnimation());
+
+
+        }
     }
-})
+
+}
+
+// Create new instances of Typewriter to re-run the animation
+const _1st = new Typewriter(1, 'I love Design.');
+const _2nd = new Typewriter(2, 'I love to Develop');
+const _3rd = new Typewriter(3, 'And I love solving Problems.');
+const _4th = new Typewriter(4, 'I\'m a front-end developer');
