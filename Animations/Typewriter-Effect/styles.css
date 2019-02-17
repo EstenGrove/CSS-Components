@@ -27,12 +27,14 @@ html {
     font-size: 62.5%;
 }
 
-.header-wrapper {
+.header-wrapper,
+.main-wrapper {
     max-width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 3px solid #d20068;
 }
 
 .typewriter {
@@ -44,8 +46,23 @@ html {
     animation: typing 3.5s steps(30, end), blinking .5s step-end infinite;
 }
 
+.typewriter-repeating {
+    color: #e84855;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #5cbcea;
+    animation: repeatTyping 3.5s steps(30, end),
+        repeatBlinking 1s step-end infinite;
+}
+
+.repeatTyping {
+    animation: repeatTyping 3.5s steps(30, end),
+        repeatBlinking 1s step-end infinite;
+}
 
 
+/* -- One-time Typewriter Effect -- */
 @keyframes typing {
     from {
         width: 0;
@@ -57,6 +74,29 @@ html {
 }
 
 @keyframes blinking {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #5cbcea;
+    }
+}
+
+/* -- Repeating Typewriter Effect -- */
+@keyframes repeatTyping {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes repeatBlinking {
 
     from,
     to {
