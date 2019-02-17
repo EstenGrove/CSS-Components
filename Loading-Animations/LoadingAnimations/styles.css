@@ -1,0 +1,191 @@
+/******************************************
+*  Author : Esten Grove   
+*  Created On : Fri Feb 15 2019
+*  File : styles.css
+*******************************************/
+/* :root {    
+    font-size: calc(1vw + 1vh + .5vmin);  
+} */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ------------ Blocks Resizing Animation ------------ */
+
+.block-container {
+    margin: 10rem auto;
+    width: 5rem;
+    height: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div[class^="blocks-"] {
+    width: 1rem;
+    height: 8rem;
+    background: #333;
+}
+
+.blocks-1 {
+    animation: growing1 1.5s infinite ease-in-out;
+}
+
+.blocks-2 {
+    animation: growing2 1.5s infinite ease-in-out;
+    animation-delay: .1s;
+}
+
+.blocks-3 {
+    animation: growing3 1.5s infinite ease-in-out;
+    animation-delay: .2s;
+}
+
+.blocks-4 {
+    animation: growing4 1.5s infinite ease-in-out;
+    animation-delay: .3s;
+}
+
+
+@keyframes growing1 {
+
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+@keyframes growing2 {
+
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+@keyframes growing3 {
+
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+@keyframes growing4 {
+
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+/* ------------ Progress Bar Animation ------------ */
+
+.progress-wrapper {
+    max-width: 40rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 2rem;
+    color: #aaa;
+    margin-bottom: 1rem;
+    text-align: center;
+    animation: flashing 2s ease forwards;
+}
+
+.progress-container {
+    width: 40rem;
+    height: 1rem;
+    background: #eee;
+
+}
+
+.progress-bar {
+    position: relative;
+    width: 5%;
+    height: 1rem;
+    background: #333;
+    border-radius: .3rem;
+    animation: loading 1s ease-in forwards 1;
+}
+
+@keyframes loading {
+    from {
+        width: 5%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes flashing {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

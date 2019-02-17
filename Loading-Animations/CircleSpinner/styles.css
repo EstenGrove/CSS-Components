@@ -1,0 +1,100 @@
+/******************************************
+*  Author : Esten Grove   
+*  Created On : Fri Feb 15 2019
+*  File : styles.css
+*******************************************/
+/* :root {    
+    font-size: calc(1vw + 1vh + .5vmin);  
+} */
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.title {
+    font-family: 'Black Ops One';
+    font-size: 3rem;
+    text-align: center;
+    color: #eee;
+}
+
+.wrapper {
+    max-width: 30vw;
+    height: 20vh;
+    margin: 10% auto;
+}
+
+/* -------- Spinner -------- */
+.spinner {
+    display: inline-block;
+    margin: 3rem 2rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    animation: spin .5s ease-in forwards infinite;
+}
+
+/* -- For spinner Colors -- */
+
+.greenRed {
+    border-top: 3px solid #61E294;
+    border-bottom: 3px solid #e84855;
+}
+
+.greenBlue {
+    border-bottom: 3px solid #61E294;
+    border-top: 3px solid #5cbcea;
+}
+
+.bluePurple {
+    border-top: 3px solid #5cbcea;
+    border-bottom: 3px solid #5c75ea;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-2 {
+    display: inline-block;
+    margin: 3rem 2rem;
+    width: 10rem;
+    height: 10rem;
+    border-left: 5px solid #d20068;
+    border-radius: 50%;
+    animation: spin .3s ease-in-out forwards infinite;
+}
+
+/* -- For spinner-2 Colors -- */
+.purple {
+    border-left: 5px solid #8a5cea;
+}
+
+.brightBlue {
+    border-left: 5px solid #5c75ea;
+}
+
+.cubicB {
+    animation-timing-function: cubic-bezier(.17, .67, .83, .67);
+}
