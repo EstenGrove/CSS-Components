@@ -1,0 +1,110 @@
+/******************************************
+*  Author : Esten Grove   
+*  Created On : Sun Feb 17 2019
+*  File : styles.css
+*******************************************/
+:root {
+    font-size: calc(1vw + 1vh + .5vmin);
+    color: #d20068;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #222;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+.wrapper {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odometer-container,
+.css-odometer-container {
+    width: 20rem;
+    height: 1.5rem;
+    margin: 10rem auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border-radius: .3rem;
+}
+
+.odometer-display {
+    width: 20rem;
+    height: 1.5rem;
+    letter-spacing: .5rem;
+    font-family: 'Lato';
+    overflow: hidden;
+}
+
+.css-odometer-container {
+    border-radius: .3rem;
+}
+
+.css-odometer {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.digit {
+    animation: scroll .9s cubic-bezier(.06, .89, .83, .67) infinite;
+}
+
+.delay {
+    animation-delay: .5s;
+}
+
+.nums {
+    font-family: 'Lato';
+    font-size: 1.3rem;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-100px);
+    }
+
+    30% {
+        transform: translateY(-100px);
+    }
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    55% {
+        transform: translateY(-60px);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
+
+}

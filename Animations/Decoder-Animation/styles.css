@@ -1,0 +1,42 @@
+/******************************************
+*  Author : Esten Grove   
+*  Created On : Sun Feb 17 2019
+*  File : styles.css
+*******************************************/
+:root {
+    font-size: calc(1vw + 1vh + .5vmin);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #111;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#header {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decoder {
+    color: #d20068;
+    font-family: 'Lato';
+    letter-spacing: 10px;
+}
