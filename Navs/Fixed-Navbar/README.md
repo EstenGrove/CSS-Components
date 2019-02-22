@@ -26,6 +26,9 @@ A basic navbar fixed at the top of the page.
 nav { 
   position: fixed; 
   width: 100vw; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 ```
 -Then set the height of the navbar as desired and add any additional styling you'd like and you're set. 
