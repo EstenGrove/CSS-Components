@@ -48,6 +48,10 @@ html {
     color: #fff;
 }
 
+.navLink:hover {
+    color: #8a5cea;
+}
+
 /* ---- Fixed Navbar CSS:End ---- */
 
 
@@ -68,15 +72,18 @@ h4 {
 
 h2 {
     font-size: 3rem;
+    color: #222;
 }
 
 p {
     font-size: 1.5rem;
-    color: #333;
+    color: #888;
 }
 
 h4 {
     font-size: 2rem;
+    color: #444;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 850px) {
