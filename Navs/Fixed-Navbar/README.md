@@ -1,6 +1,6 @@
-####__Fixed Navbar__
+#### __Fixed Navbar__
 
-A basic navbar fixed at the top of the page. 
+A basic navbar fixed at the top of the page with the anchor links centered vertically and horizontally using flexbox.
 
 
 ------
