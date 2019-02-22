@@ -26,6 +26,7 @@ html {
     font-size: 62.5%;
 }
 
+/* ---- Fixed Navbar CSS:Start ---- */
 .navbar {
     position: fixed;
     top: 0;
@@ -46,6 +47,10 @@ html {
     padding: 1rem;
     color: #fff;
 }
+
+/* ---- Fixed Navbar CSS:End ---- */
+
+
 
 /* --- Paragraph Filler Text --- */
 main {
