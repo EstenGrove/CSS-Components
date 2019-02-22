@@ -4,12 +4,12 @@ A basic navbar fixed at the top of the page with the anchor links centered verti
 
 
 ------
+![fixed-navbar optimized](https://user-images.githubusercontent.com/41505038/53224224-3a3ec380-3631-11e9-94fd-fc696950aafe.gif)
 
 
 
 
-
-
+-------
 ###### __Basic Setup__
 
 -Add a navbar:
