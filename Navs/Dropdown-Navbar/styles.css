@@ -1,0 +1,79 @@
+/******************************************
+*  Author : Esten Grove
+*  Created On : Thu Feb 21 2019
+*  File : styles.css
+*******************************************/
+/* :root {
+    font-size: calc(1vw + 1vh + .5vmin);
+} */
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.nav-wrapper {
+    max-width: 100vw;
+    height: 10rem;
+    background: #000000;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink {
+    font-family: 'Roboto';
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navLink:nth-child(3),
+#drop {
+    position: relative;
+}
+
+.dropdown {
+    width: 13rem;
+    height: auto;
+    padding: 2rem;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    top: 10rem;
+    left: 42%;
+    background: #f9f9f9;
+    box-shadow: 3px 10px 20px -4px rgba(0, 0, 0, 0.75);
+}
+
+.dropLink {
+    font-family: 'Roboto';
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding-bottom: 1rem;
+}
+
+.showDrop {
+    display: flex;
+}

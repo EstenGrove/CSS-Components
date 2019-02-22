@@ -1,0 +1,24 @@
+/******************************************
+*  Author : Esten Grove   
+*  Created On : Thu Feb 21 2019
+*  File : styles.css
+*******************************************/
+:root {    
+    font-size: calc(1vw + 1vh + .5vmin);  
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+        
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
