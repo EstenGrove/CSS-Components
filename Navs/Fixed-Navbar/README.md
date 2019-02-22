@@ -23,6 +23,9 @@ A basic navbar fixed at the top of the page.
 ```
 -Set the navbar container to position:fixed and 100% of the viewport
 ```css
-nav { position: fixed; width: 100vw; }
+nav { 
+  position: fixed; 
+  width: 100vw; 
+}
 ```
 -Then set the height of the navbar as desired and add any additional styling you'd like and you're set. 
