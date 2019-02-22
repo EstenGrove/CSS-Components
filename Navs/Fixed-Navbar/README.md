@@ -10,7 +10,7 @@ A basic navbar fixed at the top of the page.
 
 
 
-######__Basic Setup__
+###### __Basic Setup__
 ```
 -Add a navbar:
 <nav>
