@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  width: 9rem;
+  height: 6rem;
+  display: block;
+  padding: 3rem;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 6rem;
+  height: 6rem;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+   transition: all .2s ease;
+}
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6rem;
+  height: 3rem;
+  background: #aaa;
+  border-radius: 25rem;
+  
+}
+.slider::before {
+  position: absolute;
+  content: '';
+  width: 2.4rem;
+  height: 2.4rem;
+  bottom: .3rem;
+  left: .4rem;
+  border-radius: 50%;
+  background: #fff;
+  transition: all .2s ease;
+}
+input:checked + .slider {
+  background: #8a5cea;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+  opacity: .7;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(2.8rem);
+  -ms-transform: translateX(2.8rem);
+  transform: translateX(2.8rem);
+}
+
+</style>
+
+<!-- A Slider/Switch Button -->
+<label class="switch">
+  <input type="checkbox"/>
+  <span class="slider"></span>
+</label>
+
+</body>
+</html> 
