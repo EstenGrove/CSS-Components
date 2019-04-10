@@ -2,7 +2,7 @@
 - [Internet Explorer](#internet-explorer)
 - [Edge](#edge)
 - [Firefox](#firefox)
-- [Chrome]{#chrome)
+- [Chrome](#chrome)
 - [Safari](#safari)
 - [Opera](#opera)
 
