@@ -86,3 +86,11 @@ A collection of various cross-browser media queries for supporting IE, Opera, Ed
     /* place css here... */
 }
 ```
+#### Chrome Version 29+
+```css
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    .chrome {
+        property: value;
+    }
+}
+```
