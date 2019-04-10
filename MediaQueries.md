@@ -8,9 +8,9 @@ A collection of various cross-browser media queries for supporting IE, Opera, Ed
 - [Safari](#safari)
 - [Opera](#opera)
 
-### [Other Browser-Specific Hacks](#other-browser-specific-hacks-1)
+##### [Other Browser-Specific Hacks](#other-browser-specific-hacks-1)
 
-
+##### [Javascript Browser Hacks](#javascript-browser-hacks)
 
 ## __Internet Explorer__
 
@@ -150,6 +150,47 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 ```css
 .selector:not(*:root) {}
 ```
+## Javascript Browser Hacks
+#### Test for Chromium
+- works for Chrome, Opera >= 14 and Android 4.0.4
+```javascript
+const isChromium = !!window.chrome;
+```
+#### Test for Webkit
+- works for Chrome, Safari >=3 and Opera >= 14
+```javascript
+const isWebkit = 'WebkitAppearance' in document.documentElement.style;
+```
+#### Test for Chrome
+- works for Chrome >= 14
+```javascript
+const isChrome = !!window.chrome && !!window.chrome.webstore;
+```
+#### Test for Firefox
+- several different methods that works when testing for Firefox
+```javascript
+// Checking for sidebar
+const isFF = !!window.sidebar
 
+// Checking for "Moz" in styling
+const isFF = 'MozAppearance' in document.documentElement.style;
+
+// Using Navigator Object
+const isFF = !!navigator.userAgent.match(/firefox/i);
+
+// Checking for Global Storage
+const isFF = !!window.globalStorage;
+```
+#### Test for Internet Explorer
+- works for IE 8-10 and Edge
+```javascript
+const isIE = document.all && document.querySelector;
+```
+##### __Test for ActiveX Object__
+- works for IE 6-10
+```javascript
+// Check ActiveX Object - works for
+var isIE = !!window.ActiveXObject;
+```
 ### Alternate Resources 
 - [Browserhacks](http://browserhacks.com/#hack-f4ade0540d8e891e8190065f75acb186)
