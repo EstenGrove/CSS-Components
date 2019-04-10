@@ -10,7 +10,7 @@ A collection of various cross-browser media queries for supporting IE, Opera, Ed
 
 ##### [Other Browser-Specific Hacks](#other-browser-specific-hacks-1)
 
-##### [Javascript Browser Hacks](#javascript-browser-hacks)
+##### [Javascript Browser Hacks](#javascript-browser-hacks-1)
 
 ## __Internet Explorer__
 
