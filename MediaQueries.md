@@ -1,7 +1,8 @@
 # Media Queries
+- [Internet Explorer](#internet-explorer)
 
 A collection of various cross-browser media queries for supporting IE, Opera, Edge, Firefox and older versions of Chrome.
-## __Internet Explorer__
+## __Internet Explorer__(#internet-explorer)
 
 #### Conditional Statements for using an alternate stylesheet(used in the <head></head>)
 - IE 9 and lower
