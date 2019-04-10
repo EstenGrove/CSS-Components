@@ -1,4 +1,6 @@
 # Media Queries
+A collection of various cross-browser media queries for supporting IE, Opera, Edge, Firefox and older versions of Chrome.
+
 - [Internet Explorer](#internet-explorer)
 - [Edge](#edge)
 - [Firefox](#firefox)
@@ -6,10 +8,10 @@
 - [Safari](#safari)
 - [Opera](#opera)
 
-### [Other Browser-Specific Hacks](#other-browser-specific-hacks)
+### [Other Browser-Specific Hacks](#other-browser-specific-hacks-1)
 
 
-A collection of various cross-browser media queries for supporting IE, Opera, Edge, Firefox and older versions of Chrome.
+
 ## __Internet Explorer__
 
  
