@@ -1,5 +1,6 @@
 # Media Queries
 - [Internet Explorer](#internet-explorer)
+- [Edge](#edge)
 
 A collection of various cross-browser media queries for supporting IE, Opera, Edge, Firefox and older versions of Chrome.
 ## __#Internet Explorer__
