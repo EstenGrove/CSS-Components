@@ -1,6 +1,10 @@
 # Media Queries
 - [Internet Explorer](#internet-explorer)
 - [Edge](#edge)
+- [Firefox](#firefox)
+- [Chrome]{#chrome)
+- [Safari](#safari)
+- [Opera](#opera)
 
 A collection of various cross-browser media queries for supporting IE, Opera, Edge, Firefox and older versions of Chrome.
 ## __#Internet Explorer__
@@ -94,5 +98,43 @@ A collection of various cross-browser media queries for supporting IE, Opera, Ed
     .chrome {
         property: value;
     }
+}
+```
+## __Safari__
+#### Safari 7.1+
+```css
+_::-webkit-full-page-media, _:future, :root .safari_only {
+    /* place css here... */
+}
+```
+#### Safari 6.1-10.0
+```css
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+    @media {
+        /* place css here... */
+    }
+}
+```
+#### Safari 10+
+```css
+@media not all and (min-resolution:.001dpcm) { 
+    @media {
+        /* place css here... */
+    }
+}
+```
+## __Opera__
+#### Opera 12+
+```css
+@media (min-resolution: .001dpcm) {
+    _:-o-prefocus, .selector {
+        /* place css here... */
+    } 
+}
+```
+#### Opera 11 and lower
+```css
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+    /* place css here... */
 }
 ```
