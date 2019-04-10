@@ -14,9 +14,18 @@ A collection of various cross-browser media queries for supporting IE, Opera, Ed
 
 ## __Internet Explorer__
 
+### __Using Conditional Comments__
+- Conditional Statements for loading alternate stylesheets(used in the <head></head>)
+
+#### IE 6-9
+```html
+<!--[if IE 6]> Internet Explorer 6 <![endif]-->
+<!--[if IE 7]> Internet Explorer 7 <![endif]-->
+<!--[if IE 8]> Internet Explorer 8 <![endif]-->
+<!--[if IE 9]> Internet Explorer 9 <![endif]-->
+```
  
 #### IE 9 and lower
-- Conditional Statements for using an alternate stylesheet(used in the <head></head>)
 ```html
 <!--[if IE]>
   <link rel="stylesheet" type="text/css" href="all-ie-only.css" />
@@ -190,11 +199,19 @@ const isFF = !!window.globalStorage;
 ```javascript
 const isIE = document.all && document.querySelector;
 ```
-##### __Test for ActiveX Object__
 - works for IE 6-10
 ```javascript
 // Check ActiveX Object - works for
 var isIE = !!window.ActiveXObject;
+```
+#### Test for Opera
+- works for Opera version 12.4 or lower
+```javascript
+const isOpera = !!window.opera;
+```
+##### __Test for Opera Mini__
+```javascript
+const isOperaMini = (navigator.userAgent.indexOf('Opera Mini') > -1);
 ```
 [ToTop](#media-queries)
 ### Alternate Resources 
