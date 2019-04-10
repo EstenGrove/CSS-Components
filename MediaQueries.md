@@ -9,8 +9,9 @@
 A collection of various cross-browser media queries for supporting IE, Opera, Edge, Firefox and older versions of Chrome.
 ## __Internet Explorer__
 
-#### Conditional Statements for using an alternate stylesheet(used in the <head></head>)
-- IE 9 and lower
+ 
+#### IE 9 and lower
+- Conditional Statements for using an alternate stylesheet(used in the <head></head>)
 ```html
 <!--[if IE]>
   <link rel="stylesheet" type="text/css" href="all-ie-only.css" />
@@ -138,3 +139,12 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     /* place css here... */
 }
 ```
+## Other Browser-Specific Hacks
+#### Webkit Selectors - CSS
+- works for Chrome, Safari*, Opera >= 14 and Android
+```css
+.selector:not(*:root) {}
+```
+
+### Alternate Resources 
+- [Browserhacks](http://browserhacks.com/#hack-f4ade0540d8e891e8190065f75acb186)
