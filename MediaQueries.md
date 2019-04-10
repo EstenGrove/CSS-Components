@@ -6,6 +6,9 @@
 - [Safari](#safari)
 - [Opera](#opera)
 
+### Other Browser-Specific Hacks
+- [Selectors](#webkit-selectors)
+
 A collection of various cross-browser media queries for supporting IE, Opera, Edge, Firefox and older versions of Chrome.
 ## __Internet Explorer__
 
