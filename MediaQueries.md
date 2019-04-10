@@ -53,3 +53,36 @@ A collection of various cross-browser media queries for supporting IE, Opera, Ed
   /* place css here... */ 
 }
 ```
+## __Firefox__
+#### Firefox Any version
+```css
+@-moz-document url-prefix() {
+    /* place css here... */
+}
+```
+#### Firefox (Quantum w/ Stylo)
+```css
+@-moz-document url-prefix() {
+    @supports (animation: calc(0s)) {
+        /* place css here... */
+    }
+}
+```
+#### Firefox Legacy (w/ Stylo)
+```css
+@-moz-document url-prefix() {
+    @supports not (animation: calc(0s)) {
+        /* Gecko */
+        .ffGecko {
+            property: value;
+        }
+    }
+}
+```
+## __Chrome__
+#### Chrome & Safari any version
+```css
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    /* place css here... */
+}
+```
