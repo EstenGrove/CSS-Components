@@ -57,6 +57,7 @@ A collection of various cross-browser media queries for supporting IE, Opera, Ed
     /* place css here... */
 }
 ```
+[ToTop](#media-queries)
 ## __Edge__
 #### Edge 12
 - Media query that checks for "accelerator" support.
@@ -91,6 +92,7 @@ A collection of various cross-browser media queries for supporting IE, Opera, Ed
     }
 }
 ```
+[ToTop](#media-queries)
 ## __Chrome__
 #### Chrome & Safari any version
 ```css
@@ -129,6 +131,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     }
 }
 ```
+[ToTop](#media-queries)
 ## __Opera__
 #### Opera 12+
 ```css
@@ -150,6 +153,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 ```css
 .selector:not(*:root) {}
 ```
+[ToTop](#media-queries)
 ## Javascript Browser Hacks
 #### Test for Chromium
 - works for Chrome, Opera >= 14 and Android 4.0.4
@@ -192,5 +196,6 @@ const isIE = document.all && document.querySelector;
 // Check ActiveX Object - works for
 var isIE = !!window.ActiveXObject;
 ```
+[ToTop](#media-queries)
 ### Alternate Resources 
 - [Browserhacks](http://browserhacks.com/#hack-f4ade0540d8e891e8190065f75acb186)
