@@ -195,6 +195,11 @@ const isFF = !!navigator.userAgent.match(/firefox/i);
 const isFF = !!window.globalStorage;
 ```
 #### Test for Internet Explorer
+- best JS option
+- works for 10+
+```javascript
+window.atob
+```
 - works for IE 8-10 and Edge
 ```javascript
 const isIE = document.all && document.querySelector;
