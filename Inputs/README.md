@@ -1,5 +1,13 @@
 # List of Input Tag Snippets
 
+### __Useful Input Attributes__
+- ```selected```
+- ```valid```
+- ```invalid```
+- ```checked```
+- ```focus```
+- ```focus-within```
+
 #### __List of Input Types__
 - button
   - An alternate way of doing buttons, using an input.
@@ -86,5 +94,5 @@
 ```
 #### __Date Input__
 - Date input allows for user input in the form of __mm/dd/yy__
-
-  
+#### __Datetime-Local Input__
+- Similar to the date input but it allows the user to define a time of day as well: __mm/dd/yy hh:mm:ss__
