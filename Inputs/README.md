@@ -43,6 +43,18 @@
 - radio
   - Round clickable button, similar to a checkbox.
   - ``` <input type="radio" /> ```
+  - __Attributes:__
+    - autofocus
+    - defaultChecked
+      - returns the default value of the 'checked' attribute
+    - checked
+      - sets the 'checked' value
+    - disabled
+    - form
+      - returns a reference to the form that contains the radio input
+    - required
+    - value
+      - just the value attribute
 - range
   - An input that provides a range that is set with the ```min``` and ```max``` attributes.
   - ``` <input type="range" /> ```
