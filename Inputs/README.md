@@ -58,17 +58,33 @@
 ### __Alternate Input Tags__
 
 #### __Select Dropdown__
-- The ```selected``` attribute allows you to handle submissions and the default option.
-- Also includes a ```size``` attribute, which allow you to specify how many options are displayed.
+- ```selected``` attribute: defines a selection from the user. Also, used for handling default selections.
+- ```size``` attribute: defines the number of options that are shown to the user, even if there's more.
+- ```mulitple``` attribute: allows for multiple selections.
 ```html
-<select name="categories" size="3">
+<select name="categories" size="3" multiple>
   <option value="Phones" selected>Phones</option>
   <option value="Tablets">Tablets</option>
   <option value="Laptops">Laptops</option>
   <option value="Accessories">Accessories</option>
 </select>
 ```  
-  
-  
-  
+#### __Datalist Tag__
+- The ```datalist``` tag allows you to provide a dropdown list of data options, to be used in conjunction with an input typically.
+```html
+<datalist>
+  <option value="Phones" selected>Phones</option>
+  <option value="Tablets">Tablets</option>
+  <option value="Laptops">Laptops</option>
+  <option value="Accessories">Accessories</option>
+</datalist>
+```
+#### __Color Input Tag__
+- The color input tag allows you to create a color picker option for the user, in the browser.
+```html
+<input type="color" />
+```
+#### __Date Input__
+- Date input allows for user input in the form of __mm/dd/yy__
+
   
