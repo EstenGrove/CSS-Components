@@ -2,6 +2,7 @@
 
 ### __Pseudo-Validating Input__
 - The input has a base border color, then changes to red when the input is in focus, then changes to green when the input requirement is met.
+- The magic is in the ```required``` attribute in the HTML combined with the ```:valid``` and ```:invalid``` pseudo classes.
 
 ```html 
 <input type="text" required/>
