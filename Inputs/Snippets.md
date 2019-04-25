@@ -7,6 +7,7 @@
 <input type="text" required/>
 ```
 ```css
+/* Base style */
 input[type="text"]{
   width: 100%;
   height: 2.5rem;
