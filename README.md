@@ -16,3 +16,12 @@ Components:
 
 -------
 ![cards](https://user-images.githubusercontent.com/41505038/52602805-4d77b500-2e21-11e9-9d24-3b0b9bd7fc1b.png)
+
+
+
+
+
+
+
+
+<img width="86" alt="Screen Shot 2019-04-26 at 6 08 39 PM" src="https://user-images.githubusercontent.com/41505038/56842802-833c0f80-684e-11e9-92bb-db9a5fcab1b9.png">
