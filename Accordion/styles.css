@@ -1,0 +1,113 @@
+/******************************************
+*  Author : Esten Grove
+*  Created On : Thu May 02 2019
+*  File : styles.css
+*******************************************/
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Raleway';
+}
+
+.accordion-wrapper {
+    max-width: 40rem;
+    display: block;
+    margin: 3rem auto;
+}
+
+.accordion-Btn {
+    width: 100%;
+    height: 4rem;
+    padding: 0 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    background: #eaecef;
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+.section {
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+    display: none;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.section-text {
+    font-size: 1.4rem;
+    color: #777;
+    font-weight: 300;
+}
+
+.show {
+    display: block;
+}
+
+/* -- Down Caret Icon -- */
+.icon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.icon:hover {
+    fill: #5c75ea;
+}
+
+.animateIcon {
+    -webkit-animation: spin .2s ease .1s 1 forwards;
+    animation: spin .2s ease .1s 1 forwards;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
