@@ -2,6 +2,7 @@
 A basic image gallery that has a "main" display box and the set of images in the gallery beneath it. The user clicks on the desired image to display it in the "main" box.
 
 
+##### __NOTE: Existing JavaScript has been refactored and provided in ```refactored.js```. However, the original code is still available in the ```app.js``` file, but is not recommended for use.__
 
 
 
