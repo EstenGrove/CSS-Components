@@ -12,7 +12,5 @@ const imageBox = document.querySelector(".main-img");
 // Add event listener to each gallery image
 // When clicked make that image the src of the main imageBox
 [...images].forEach((img, index) => {
-  img.addEventListener("click", e => {
-    imageBox.setAttribute("src", e.target.src);
-  });
+  img.addEventListener("click", e => imageBox.setAttribute("src", e.target.src));
 });
