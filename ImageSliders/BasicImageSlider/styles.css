@@ -1,0 +1,91 @@
+/******************************************
+*  Author : Esten Grove   
+*  Created On : Fri Dec 14 2018
+*  File : styles.css
+*******************************************/
+:root {
+    font-size: calc(1vw + 1vh + .5vmin);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: #222;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* -- Scalable Container -- */
+.container {
+    max-width: 80vw;
+    height: 30vh;
+    margin: 2rem auto;
+    outline: none;
+    border-radius: .3rem;
+}
+
+@media (min-width: 720px) {
+    .container {
+        max-width: calc(50vw + 50vh + .5vmin);
+        height: calc(30vw + 30vh + .5vmin);
+        margin: 2rem auto;
+        border-radius: .3rem;
+    }
+}
+
+.imgContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* -- IMAGES -- */
+.img-1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: '';
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    fill: #f4f4f4;
+    cursor: pointer;
+}
+
+.icon:hover {
+    border: 2px solid #f4f4f4;
+    border-radius: 50%;
+    fill: #f4f4f4;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    opacity: 1;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    opacity: 1;
+}
