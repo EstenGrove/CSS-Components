@@ -1,1 +1,10 @@
 # Simple Image Gallery
+A basic image gallery that has a "main" display box and the set of images in the gallery beneath it. The user clicks on the desired image to display it in the "main" box.
+
+
+
+
+
+
+### __Example__
+![image-gallery](https://user-images.githubusercontent.com/41505038/57174732-1994a600-6df8-11e9-990e-7c51ab353256.gif)
