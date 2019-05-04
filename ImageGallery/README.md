@@ -6,5 +6,6 @@ A basic image gallery that has a "main" display box and the set of images in the
 
 
 
-### __Example__
+### __Example__ 
+- Sample images from [undraw.co](https://undraw.co/)
 ![image-gallery](https://user-images.githubusercontent.com/41505038/57174732-1994a600-6df8-11e9-990e-7c51ab353256.gif)
