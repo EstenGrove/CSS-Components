@@ -4,6 +4,10 @@
 ##### __Box Shadow__
 ```css
 box-shadow: 3px 4px 16px -1px rgba(0,0,0,0.75);
+
+# Light and Subtle Box Shadow
+-webkit-box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
+box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
 ```
 
 ### Common Color Palettes
