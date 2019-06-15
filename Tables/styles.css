@@ -1,0 +1,71 @@
+/******************************************
+*  Author : Esten Grove
+*  Created On : Sat Jun 15 2019
+*  File : styles.css
+*******************************************/
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+}
+/* --- Wrapper that controls the width and height --- */
+.wrapper {
+    max-width: 100vw;
+    height: auto;
+    padding: .5rem 1rem;
+}
+
+#title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+/* --- Container that expands to fill the size of the "wrapper" css class --- */
+.container {
+    width: 100%;
+    height: 100%;
+
+}
+
+.container table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.table-heading {
+    font-size: 1.6rem;
+}
+
+th,
+td {
+    padding: 1.2rem .5rem;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+}
+
+td {
+    font-size: 1.4rem;
+}
+/* --- adds light grey background to every other table row (tr) --- */
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
