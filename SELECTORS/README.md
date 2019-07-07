@@ -62,9 +62,25 @@ p + h4 {
 ```
 
 ### General Sibling Combinator
+- this method will match the second element (target element) *only* if the initial element(target element) matches.
 ```
 // Pseudo code
 <former_element> ~ <target_element> {  
   
+}
+```
+###### Example
+- in this example the second ```p``` tag will be selected as its the *only* ```p``` tag that follows an ```img``` tag.
+```html
+<div>
+  <p>Hola</p>
+  <img src="myimage.png"/>
+  <p>Hello</p>
+</div>
+```
+
+```css
+img ~ p {
+  color: red;
 }
 ```
