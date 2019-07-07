@@ -84,3 +84,22 @@ img ~ p {
   color: red;
 }
 ```
+
+### Child Selectors
+- child selectors will select the direct descendants (or children) of an element
+
+###### Example
+- this example will select both the ```child-1``` and ```child-2``` divs but NOT the ```grandchild-1```
+```html
+<div class="parent">
+  <div class="child-1">hi</div>
+  <div class="child-2">
+    <div class="granchild-1">hello</div>
+  </div>
+</div>
+```
+```css
+.parent > div {
+  background-color: orange;
+}
+```
