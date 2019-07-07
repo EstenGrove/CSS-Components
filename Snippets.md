@@ -1,5 +1,57 @@
 # Useful CSS Snippets
 
+### Blur on Hover Effect
+- This effect will blur all items NOT being hovered. Useful for navbars and links
+```html
+<!-- Here's the HTML Markup -->
+
+<div class="container">
+      <div class="item-1">Home</div>
+      <div class="item-2">Projects</div>
+      <div class="item-3">Blog</div>
+      <div class="item-4">About</div>
+      <div class="item-5">Contact</div>           
+</div>
+```
+- Here's the magic CSS
+```css
+/* -- CSS Reset -- */
+
+*,
+*::after,
+*::before {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+html {
+      font-size: 62.5%;
+      font-family: 'Raleway', san-serif;
+}
+
+/* -- Here's the magic styles -- */
+
+.container {
+      display: flex;
+}
+
+div[class^="item-"] {
+      padding: .5rem 1rem;
+      font-size: 1.8rem;
+      transition: opacity .2s;
+}
+
+.container:hover div[class^="item-"]:not(:hover) {
+      opacity: .5;
+}
+
+```
+
+
+
+------------
+
+
 ### <u>__Reusables__</u>
 ##### __Box Shadow__
 ```css
