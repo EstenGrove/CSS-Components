@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Raleway";
+}
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+}
+
+.week {
+  width: 100vw;
+  height: 10rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.day {
+  font-family: "Raleway";
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: auto;
+  padding: 0.5rem;
+  height: 10rem;
+  border: 1px solid;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+
+.lingerDays {
+  opacity: 0.2;
+}
