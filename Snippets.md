@@ -54,6 +54,33 @@ div[class^="item-"] {
 - ```left: 50%;```
 - ```top: 50%;```
 
+##### Usage Example of Vertical & Horizontal Center of Fixed/Absolutely Positioned Items
+```html
+<div class="modal">
+      <h1 class="modal-title">Modal Component</h1>
+</div>
+```
+- and the CSS...
+```css
+body {
+      position: relative;
+      z-index: 1;
+}
+
+.modal {
+      display: block;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 30rem;
+      height: 40rem;
+      margin-left: -15rem;
+      margin-top: -20rem;
+      z-index: 10;
+}
+```
+
+
 ------------
 
 
