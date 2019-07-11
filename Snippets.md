@@ -49,10 +49,10 @@ div[class^="item-"] {
 
 ## Center ```fixed``` or ```absolute```ly Positioned Elements (like modals)
 - In order to horizontally and vertically center an element that has ```absolute``` or a ```fixed``` position you must provide a couple negative margins:
-      - a negative "top" margin that is half the element's height: ```margin-top: -20px;```
-      - a negative "left" margin that is half the element's width: ```margin-left: -40px;```
-      - ```left: 50%;```
-      - ```top: 50%;```
+- a negative "top" margin that is half the element's height: ```margin-top: -20px;```
+- a negative "left" margin that is half the element's width: ```margin-left: -40px;```
+- ```left: 50%;```
+- ```top: 50%;```
 
 ------------
 
