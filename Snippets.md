@@ -98,6 +98,11 @@ box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
 box-shadow: 3px 4px 16px -1px rgba(0,0,0,0.75);
 ```
 
+### Tooltip Clip-Path
+```css
+clip-path: polygon(81% 60%, 91% 45%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 59% 60%);
+```
+
 ### Common Color Palettes
 ##### __Company Palette__
 ```css
