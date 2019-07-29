@@ -1,0 +1,38 @@
+/* ------- Toggle Switch CSS ------- */
+.Toggle {
+  width: 4rem;
+  height: 2rem;
+  margin-bottom: 4rem;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.switch { 
+   position : relative ;
+   display : inline-block;
+   width : 4rem;
+   height : 2rem;
+   background-color: #ccc;
+   border-radius: 2rem;
+  cursor: pointer;
+ }
+.switch::after {
+  content: '';
+  position: absolute;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background-color: white;
+  top: .1rem; 
+  left: .1rem;
+  transition: all 0.3s;
+}
+.checkbox:checked + .switch::after {
+  left: 2.1rem; 
+}
+.checkbox:checked + .switch {
+  background-color: #222;
+}
+/* -- This is the 'highlight' color for toggling the switch "On" -- */
