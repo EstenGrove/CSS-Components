@@ -4,7 +4,7 @@
 ### Grey Scales
 - #2f2f30
 - #eaecef
-```css
+```javascript
 /* Greys */
 
 // light => dark
