@@ -96,6 +96,9 @@ box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
 
 /* Darker shadow */
 box-shadow: 3px 4px 16px -1px rgba(0,0,0,0.75);
+
+/* Inset Box Shadow */
+box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, .2);
 ```
 
 ### Tooltip Clip-Path
