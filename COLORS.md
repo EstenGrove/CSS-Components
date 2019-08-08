@@ -1,7 +1,7 @@
 # Color Palette(s)
 
 
-![COLORS.png](:/4eb4956633d948a7beee2ebf6d760519)
+![COLORS](https://user-images.githubusercontent.com/41505038/62709117-9e6bfe80-b9a9-11e9-8a31-74cb97c8e6c2.png)
 
 ```
 // Main Palette
