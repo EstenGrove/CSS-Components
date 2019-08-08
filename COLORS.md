@@ -3,7 +3,7 @@
 
 ![COLORS](https://user-images.githubusercontent.com/41505038/62709117-9e6bfe80-b9a9-11e9-8a31-74cb97c8e6c2.png)
 
-```
+```scss
 // Main Palette
 #00B7FF - Bright Blue
 #5c75ea - Bright Purple - hsl(222, 89% 64%)
@@ -41,7 +41,7 @@ Link Color - Purple: #551a8b
 ```
 
 ### Greys
-```css
+```scss
 // light => dark
 #eaecef	
 #d3d4d7	
