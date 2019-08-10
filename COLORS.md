@@ -5,24 +5,24 @@
 
 ```scss
 // Main Palette
-#00B7FF - Bright Blue
-#5c75ea - Bright Purple - hsl(222, 89% 64%)
-#d7263d - Red - hsl(352, 70%, 50%)
-#61E294 - Green  - hsl(144, 69%, 63%)
-#8a5cea - Purple - hsl(259, 77%, 64%)
-#A846A1 - Maroon - hsl(304, 41%, 47%)
-#d20068 - Accent Red - hsl(330, 100%, 41%)
-#5CBCEA - Baby Blue - hsl(199, 77%, 64%)
-#eaecef - Light Grey Border - hsl(216, 14%, 93%)
-#e84855 - Flat Red - hsl(355, 78%, 60%)
-#FF957D - Flat Orange - hsl(11, 100%, 75%)
-#F9F871 - Flat Yellow - hsl(60, 92%, 71%)
-#44F0B5 - Alt Flat Green - hsl(159, 85%, 60%)
-#EEEDFF - Flat Grey Borders - hsl(243, 100%, 96%)
+#00B7FF - Bright Blue - hsla(197 100%, 50%, 1)
+#5c75ea - Bright Purple - hsla(222, 89% 64%, 1)
+#d7263d - Red - hsla(352, 70%, 50%, 1)
+#61E294 - Green  - hsla(144, 69%, 63%, 1)
+#8a5cea - Purple - hsla(259, 77%, 64%, 1)
+#A846A1 - Maroon - hsla(304, 41%, 47%, 1)
+#d20068 - Accent Red - hsla(330, 100%, 41%, 1)
+#5CBCEA - Baby Blue - hsla(199, 77%, 64%, 1)
+#eaecef - Light Grey Border - hsla(216, 14%, 93%, 1)
+#e84855 - Flat Red - hsla(355, 78%, 60%, 1)
+#FF957D - Flat Orange - hsla(11, 100%, 75%, 1)
+#F9F871 - Flat Yellow - hsla(60, 92%, 71%, 1)
+#44F0B5 - Alt Flat Green - hsla(159, 85%, 60%, 1)
+#EEEDFF - Flat Grey Borders - hsla(243, 100%, 96%, 1)
 
 // Accent Colors
-#5183f5 - Neon purple (neon-ish)
-#4B4453 - Charcoal
+#5183f5 - Neon purple (neon-ish) hsla(222, 89%, 64%, 1)
+#4B4453 - Charcoal  hsla(268, 10%, 30%, 1)
 
 //ALA Color Palette
 #00aced - twitter
