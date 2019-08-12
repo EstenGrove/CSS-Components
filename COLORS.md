@@ -70,3 +70,8 @@ Link Color - Purple: #551a8b
 #ffffff
 ```
 
+## Gradients
+```css
+/* -- Neon Purple Shaded 20degrees diff -- */
+background-image: linear-gradient(to right top, #5183f5, #4c78f7, #4c6cf8, #5060f7, #5751f5);
+```
