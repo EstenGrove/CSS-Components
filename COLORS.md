@@ -70,6 +70,16 @@ Link Color - Purple: #551a8b
 #ffffff
 ```
 
+## Font Greys & Whites
+```css
+.customGrey {
+  color: hsla(222, 19%, 64%, 1);
+}
+.customGrey:hover {
+  color: hsla(212, 19%, 84%, 1);
+}
+```
+
 ## Gradients
 ```css
 /* -- Neon Purple Shaded 20degrees diff -- */
