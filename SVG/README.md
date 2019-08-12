@@ -15,6 +15,6 @@ To apply a gradient include this in the markup and make sure the height/width is
       <stop offset="1" stop-color="#7251f5"/>
     </linearGradient>
   </defs>
-<rect width="100%" height="100%" fill="url(#g1)"/>
+  <rect width="100%" height="100%" fill="url(#g1)"/>
 </svg>
 ```
