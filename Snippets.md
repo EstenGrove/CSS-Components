@@ -1,5 +1,10 @@
 # Useful CSS Snippets
 
+### Common Font Embed: Link Tag
+```html
+<link href="https://fonts.googleapis.com/css?family=Lobster|Lora|Open+Sans:300,400,600,700,800|Pacifico&display=swap" rel="stylesheet">
+```
+
 ### Blur on Hover Effect
 - This effect will blur all items NOT being hovered. Useful for navbars and links
 ```html
