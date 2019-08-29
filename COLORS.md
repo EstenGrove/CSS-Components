@@ -25,6 +25,41 @@
 #5183f5 - Neon purple (neon-ish) hsla(222, 89%, 64%, 1)
 #4B4453 - Charcoal  hsla(268, 10%, 30%, 1)
 
+// FADED COLOR PALETTE
+$blue: #00b7ff;
+$red: #d7263d;
+$purple: #5183f5;
+$green: #00c9a7;
+$charcoal: #4b4453;
+$borderGrey: #eaecef;
+
+$bottom_space: 3rem;
+
+$colors: (
+  main: $purple,
+  mainBlue: $blue,
+  mainRed: $red,
+  mainGreen: $green,
+  mainCharcoal: $charcoal,
+  mainGrey: $borderGrey
+);
+
+$fadedColors: (
+  fadedGreen: hsla(144, 69%, 63%, 0.3),
+  fadedBlue: hsla(197, 100%, 50%, 0.3),
+  fadedMain: hsla(222, 89%, 64%, 0.3),
+  fadedRed: hsla(330, 100%, 41%, 0.3),
+  fadedOrange: hsla(11, 100%, 75%, 0.3),
+  fadedFlatGreen: hsla(159, 85%, 60%, 0.3)
+);
+
+$primary_font: "Open Sans", sans-serif;
+
+$light_shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
+$medium_shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+$heavy_shadow: 3px 4px 16px -1px rgba(0, 0, 0, 0.75);
+
+
 //ALA Color Palette
 #00aced - twitter
 #007bb6 - linkedin
