@@ -1,0 +1,19 @@
+// calendar container
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, calc(100% / 7));
+  grid-template-rows: repeat(4, auto-fill);
+  
+  // calendar day
+  &_item {
+    width: 100%;
+    height: 5rem;
+    border: 1px solid hsla(0, 0%, 93%, .2);
+    background-color: $flatSmoke;
+    -webkit-transition: all .5s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+}
