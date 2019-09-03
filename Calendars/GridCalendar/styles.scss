@@ -15,5 +15,10 @@
     -webkit-transition: all .5s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    
+    // this sets the first day of the month (ie Mon, Tues ...)
+    &:nth-child(1) {
+      grid-column-start: 3;
+    }
   }
 }
