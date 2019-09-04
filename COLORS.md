@@ -5,6 +5,7 @@
 
 ```scss
 // Main Palette
+#5751F5 - BEST BRIGHT PURPLE - hsla(242, 89%, 64%, 1)
 #00B7FF - Bright Blue - hsla(197 100%, 50%, 1)
 #5c75ea - Bright Purple - hsla(222, 89% 64%, 1)
 #d7263d - Red - hsla(352, 70%, 50%, 1)
