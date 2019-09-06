@@ -21,6 +21,17 @@
 #44F0B5 - Alt Flat Green - hsla(159, 85%, 60%, 1)
 #EEEDFF - Flat Grey Borders - hsla(243, 100%, 96%, 1)
 
+// Font Greys
+$primary_grey: hsl(0, 0%, 13%);
+$secondary_grey: hsl(0, 0%, 29%) ;
+$tertiary_grey: hsl(0, 0%, 45%);
+
+$fontGreys: (
+  main: $primary_grey,
+  alt: $secondary_grey,
+  sub: $tertiary_grey,
+);
+
 
 // Accent Colors
 #5183f5 - Neon purple (neon-ish) hsla(222, 89%, 64%, 1)
