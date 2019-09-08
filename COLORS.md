@@ -78,7 +78,19 @@ $fonts: (mainSans: $primary_font,
 ```
 
 ### Greys
+
 ```scss
+// blue greys
+#f7fafc  -  hsla(204, 45.5%, 97.8%, 1)
+#edf2f7  -  hsla(210, 38.5%, 94.9%, 1)
+#e2e8f0  -  hsla(214, 32%,  91%, 1)
+#cbd5e0  -  hsla(211, 25%,  84%, 1)
+#a0aec0  -  hsla(214, 20.3%, 69%, 1)
+#718096  -  hsla(216, 15%, 51.6%, 1)
+#4a5568  -  hsla(218, 16.9%, 34.9%, 1)
+#2d3748  -  hsla(218, 23.1%, 22.9%, 1)
+#1a202c  -  hsla(220, 25.7%, 13.7%, 1)
+
 // light => dark
 #eaecef	
 #d3d4d7	
