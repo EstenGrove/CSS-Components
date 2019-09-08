@@ -4,89 +4,77 @@
 ![COLORS](https://user-images.githubusercontent.com/41505038/62709117-9e6bfe80-b9a9-11e9-8a31-74cb97c8e6c2.png)
 
 ```scss
-// Main Palette
-#5751F5 - BEST BRIGHT PURPLE - hsla(242, 89%, 64%, 1)
-#5183f5 - ALT PURPLE: Neon purple (neon-ish) hsla(222, 89%, 64%, 1)
-#00B7FF - Bright Blue - hsla(197 100%, 50%, 1)
-#5c75ea - Bright Purple - hsla(222, 89% 64%, 1)
-#d7263d - Red - hsla(352, 70%, 50%, 1)
-#61E294 - Green  - hsla(144, 69%, 63%, 1)
-#8a5cea - Purple - hsla(259, 77%, 64%, 1)
-#A846A1 - Maroon - hsla(304, 41%, 47%, 1)
-#d20068 - Accent Red - hsla(330, 100%, 41%, 1)
-#5CBCEA - Baby Blue - hsla(199, 77%, 64%, 1)
-#eaecef - Light Grey Border - hsla(216, 14%, 93%, 1)
-#e84855 - Flat Red - hsla(355, 78%, 60%, 1)
-#FF957D - Flat Orange - hsla(11, 100%, 75%, 1)
-#F9F871 - Flat Yellow - hsla(60, 92%, 71%, 1)
-#44F0B5 - Alt Flat Green - hsla(159, 85%, 60%, 1)
-#EEEDFF - Flat Grey Borders - hsla(243, 100%, 96%, 1)
+$primary_font: 'Open Sans',
+sans-serif;
+$primary_serif: 'Lora',
+serif;
+$primary_mono: 'Consolas',
+monospace;
 
-// Font Greys
-$primary_grey: hsl(0, 0%, 13%);
-$secondary_grey: hsl(0, 0%, 29%) ;
-$tertiary_grey: hsl(0, 0%, 45%);
+$vibe: hsla(242, 89%, 64%, 1);
+$blue: hsla(197, 100%, 50%, 1);
+$red: hsla(352, 70%, 50%, 1);
+$purple: hsla(222, 89%, 64%, 1);
+$green: hsla(170, 100%, 39%, 1);
+$charcoal: hsla(268, 10%, 30%, 1);
+$deepPurple: hsla(240, 68%, 62%, 1);
+$orange: hsla(11, 100%, 75%, 1);
+$yellow: hsla(60, 92%, 71%, 1);
+$grey: hsla(216, 14%, 93%, 1);
 
-$fontGreys: (
-  main: $primary_grey,
-  alt: $secondary_grey,
-  sub: $tertiary_grey,
-);
-
-
-// Accent Colors
-#5183f5 - Neon purple (neon-ish) hsla(222, 89%, 64%, 1)
-#4B4453 - Charcoal  hsla(268, 10%, 30%, 1)
-
-// FADED COLOR PALETTE
-$blue: #00b7ff;
-$red: #d7263d;
-$purple: #5183f5;
-$green: #00c9a7;
-$charcoal: #4b4453;
-$borderGrey: #eaecef;
-
-$bottom_space: 3rem;
-
-$colors: (
-  main: $purple,
-  mainBlue: $blue,
-  mainRed: $red,
-  mainGreen: $green,
-  mainCharcoal: $charcoal,
-  mainGrey: $borderGrey
-);
-
-$fadedColors: (
-  fadedGreen: hsla(144, 69%, 63%, 0.3),
-  fadedBlue: hsla(197, 100%, 50%, 0.3),
-  fadedMain: hsla(222, 89%, 64%, 0.3),
-  fadedRed: hsla(330, 100%, 41%, 0.3),
-  fadedOrange: hsla(11, 100%, 75%, 0.3),
-  fadedFlatGreen: hsla(159, 85%, 60%, 0.3)
-);
-
-$primary_font: "Open Sans", sans-serif;
+// FLAT VERSIONS
+$flatBlue: hsla(197, 100%, 50%, .3);
+$flatPurple: hsla(222, 89%, 64%, .3);
+$flatAltPurple: hsla(259, 77%, 64%, .4);
+$flatGreen: hsla(144, 69%, 63%, .4);
+$flatSmoke: hsla(268, 10%, 30%, .2);
+$flatRed: hsla(330, 100%, 41%, .22);
+$flatYellow: hsla(60, 92%, 71%, .7);
+$flatOrange: hsla(11, 100%, 75%, .4);
 
 $light_shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
-$medium_shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+$medium_shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+0 3px 6px rgba(0, 0, 0, 0.23);
 $heavy_shadow: 3px 4px 16px -1px rgba(0, 0, 0, 0.75);
 
 
-//ALA Color Palette
-#00aced - twitter
-#007bb6 - linkedin
-#cb2027 - pinterest
-#27a9e1 - mail
+$greys: (
+    dark: hsla(0, 0%, 13%, 1),
+    medium: hsla(0, 0%, 29%, 1),
+    light: hsla(0, 0%, 45%, 1),
+);
 
-// Core Colors
-#27a9e1 - light blue, hover states
-#0f579e - medium blue, footer
-#03416B - dark blue, banners
-#9ad123 - btn green, buttons
 
-// Misc Colors
-Link Color - Purple: #551a8b
+$colors: (main: $vibe,
+    mainPurple: $deepPurple,
+    mainBlue: $blue,
+    mainRed: $red,
+    mainGreen: $green,
+    mainOrange: $orange,
+    mainYellow: $yellow,
+    mainCharcoal: $charcoal,
+    mainGrey: $grey,
+);
+
+$flatColors: (
+    main: $flatAltPurple,
+    mainBlue: $flatBlue,
+    mainRed: $flatRed,
+    mainGreen: $flatGreen,
+    mainYellow: $flatYellow,
+    mainOrange: $flatOrange,
+    altPurple: $flatPurple,
+);
+
+$shadows: (light: $light_shadow,
+    medium: $medium_shadow,
+    heavy: $heavy_shadow,
+);
+
+$fonts: (mainSans: $primary_font,
+    mainSerif: $primary_serif,
+    mainMono: $primary_mono,
+)
 ```
 
 ### Greys
