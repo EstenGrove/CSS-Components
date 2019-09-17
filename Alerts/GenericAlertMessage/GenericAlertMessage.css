@@ -1,0 +1,175 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", "Roboto", sans-serif;
+}
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2rem;
+}
+
+.modal_opener {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.btn-SM {
+  margin: 2.5rem 1rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.5rem;
+  color: hsla(242, 89%, 64%, 1);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  border: none;
+  -webkit-box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.warning {
+  background-color: hsla(39, 100%, 70%, 1);
+  color: #ffffff;
+}
+.warning:hover {
+  background-color: hsla(39, 100%, 70%, 0.8);
+  color: #ffffff;
+}
+
+.error {
+  background-color: hsla(352, 70%, 50%, 1);
+  color: #ffffff;
+}
+.error:hover {
+  background-color: hsla(352, 70%, 50%, 0.8);
+  color: #ffffff;
+}
+
+.success {
+  background-color: hsla(170, 100%, 39%, 1);
+  color: #ffffff;
+}
+.success:hover {
+  background-color: hsla(170, 100%, 39%, 0.8);
+  color: #ffffff;
+}
+/*------------------------ MODAL ALERTS ------------------------------ */
+.AlertMessage {
+  position: relative;
+  max-width: 45rem;
+  height: 30rem;
+  border: 1px solid hsla(0, 0%, 80%, 0.6);
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  background-color: hsla(204, 45.5%, 97.8%, 1);
+  -webkit-box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
+  border-left: 7px solid #ccc;
+  margin-bottom: 4rem;
+  overflow-y: auto;
+  font-family: "Open Sans", sans-serif;
+}
+.AlertMessage_left {
+  width: 6rem;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.AlertMessage_left_icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  opacity: 0.8;
+}
+.AlertMessage_content {
+  padding: 1rem;
+}
+
+.AlertMessage_content_heading {
+  font-size: 1.8rem;
+  color: hsla(218, 17%, 35%, 1);
+  margin-bottom: 0.5rem;
+}
+.AlertMessage_content_subheading {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: hsla(218, 16.9%, 64.9%, 1);
+}
+.AlertMessage_content_text {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  color: hsla(218, 17%, 35%, 1);
+}
+.AlertMessage_content_text > b {
+  color: hsla(352, 70%, 50%, 1);
+  text-decoration: underline;
+}
+
+.AlertMessage_content_list {
+  width: 100%;
+  height: auto;
+}
+.AlertMessage_content_list_item {
+  font-size: 1.2rem;
+  color: hsla(218, 17%, 35%, 1);
+}
+.AlertMessage_content_list_item > a {
+  color: hsla(242, 89%, 64%, 1);
+  font-family: "Open Sans", sans-serif;
+}
+
+.AlertMessage_content_list_item:nth-child(2) > b {
+  color: hsla(242, 89%, 64%, 1);
+}
+
+/* CLOSE ICON "X" */
+.AlertMessage_close {
+  position: absolute;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 0.2rem;
+  right: 0.2rem;
+}
+.AlertMessage_close_icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: hsla(352, 70%, 50%, 0.5);
+  cursor: pointer;
+}
+.AlertMessage_close_icon:hover {
+  fill: hsla(352, 70%, 50%, 1);
+}
+
+.hide {
+  display: none;
+}
