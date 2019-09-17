@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", "Roboto", sans-serif;
+}
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2rem;
+}
+/* -- container -- */
+.WarningMessage {
+  position: relative;
+  max-width: 100%;
+  height: 8rem;
+  border: 1px solid hsla(0, 0%, 80%, 0.6);
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  background-color: hsla(204, 45.5%, 97.8%, 1);
+  -webkit-box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
+  border-left: 7px solid hsla(39, 100%, 70%, 1);
+  margin-bottom: 4rem;
+}
+/* -- left section for icon -- */
+.WarningMessage_left {
+  width: 6rem;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.WarningMessage_left_icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  fill: hsla(39, 100%, 70%, 1);
+  opacity: 0.8;
+}
+.WarningMessage_content {
+  padding: 1rem;
+}
+
+.WarningMessage_content_heading {
+  font-size: 1.8rem;
+  color: hsla(218, 17%, 35%, 1);
+  margin-bottom: 0.5rem;
+}
+.WarningMessage_content_subheading {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: hsla(218, 16.9%, 64.9%, 1);
+}
+
+.WarningMessage_close {
+  position: absolute;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 0.2rem;
+  right: 0.2rem;
+}
+.WarningMessage_close_icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: hsla(352, 70%, 50%, 0.5);
+  cursor: pointer;
+}
+.WarningMessage_close_icon:hover {
+  fill: hsla(352, 70%, 50%, 1);
+}
