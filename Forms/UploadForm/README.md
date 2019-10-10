@@ -121,3 +121,32 @@ textarea {
     box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.25);
 }
 ```
+
+## JS Selectors
+```javascript
+// BUTTONS
+const uploadBtn = document.getElementById("initUpload");
+const getDataBtn = document.getElementById("getFileData");
+// INPUTS
+const filenameInput = document.getElementById("filename");
+const folderInput = document.getElementById("folder");
+const fileDesc = document.getElementById("desc");
+const fileInput = document.getElementById("fileUpload");
+
+// ADD TO SOME EVENT
+const file = fileInput.files[0];
+const filename = filenameInput.value;
+const folder = folderInput.value;
+const filepath = `C:\\Users\\Steven\\DEV\\TEST\\${folder}`;
+const fileID = randomNum(0, 50);
+const desc = fileDesc.value;
+
+console.group("Upload");
+console.log(filename);
+console.log(folder);
+console.log(desc);
+console.log(filepath);
+console.log(fileID);
+console.groupEnd();
+
+```
