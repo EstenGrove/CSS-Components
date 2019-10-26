@@ -8,6 +8,14 @@ body {
   "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
 }
 ```
+#### Common System Fonts
+- Segoe UI
+- Roboto
+- Oxygen
+- Ubuntu
+- Helvetica Neue
+- Arial
+
 
 ### Common Font Embed: Link Tag
 ```html
