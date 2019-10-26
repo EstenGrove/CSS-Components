@@ -1,5 +1,14 @@
 # Useful CSS Snippets
 
+### System Fonts Stack: ```font-family``` Snippet
+
+```css
+body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
+```
+
 ### Common Font Embed: Link Tag
 ```html
 <link href="https://fonts.googleapis.com/css?family=Lobster|Lora|Open+Sans:300,400,600,700,800|Pacifico&display=swap" rel="stylesheet">
