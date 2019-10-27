@@ -1,6 +1,7 @@
 # Useful CSS Snippets
 
 ### System Fonts Stack: ```font-family``` Snippet
+NOTE: In Safari/Firefox the browser will try to grab the ```-apple-system``` font which is current ```San Francisco```, then will move on if not available
 
 ```css
 body {
